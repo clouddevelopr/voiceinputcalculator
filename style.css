@@ -137,3 +137,86 @@ button:nth-child(20){
 	font-size: 24px;
 	background-color: #673AB7;
 }
+
+
+    
+/* ---------------------------------------------- */
+/*                    FOOTER                      */
+/* ---------------------------------------------- */
+footer{
+    max-width: 1200px;
+    height: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    background-color: #010c3b;
+}
+
+.footer-container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.copyright{
+    height: 100%;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.copyright p{
+    color: #FFF;
+}
+
+/* ---------------------------------------------- */
+/*                    HEADER                      */
+/* ---------------------------------------------- */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 60px;
+    margin: 0 auto;
+    background-color: #010c3b;
+}
+/* -------- LOGO -------- */
+.logo{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.logo img{
+    width: 50px;
+}
+.logo p {
+    font-weight: bold;
+    color: #ffe2e2;
+    padding-left: 6px;
+    font-family: 'Gilroy', sans-serif;
+    font-size: 22px;
+}
+/* -------- NAV -------- */
+nav{
+    
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li:last-child{
+    padding-right: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px;
+    font-weight: bold;
+}
